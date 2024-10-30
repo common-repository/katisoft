@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+
+#. Text in function
+#: inc/Api/Widgets/MediaWidget.php:1
+msgid "Custom Text"
+msgstr "Tùy chỉnh văn bản"
+
+#. Text in echo
+#: templates/chat-facebook.php:27
+msgid "Edit Customer Chat"
+msgstr "Chỉnh sửa chat khách hàng"
+
+#. Text in echo
+#: inc/Api/Widgets/MediaWidget.php:57
+msgid "Image:"
+msgstr "Hình ảnh:"
+
+#. Text in echo
+#: templates/chat-facebook.php:27
+msgid "Setup Customer Chat"
+msgstr "Thiết lập chat khách hàng"
+
+#. Text in echo
+#: inc/Api/Widgets/MediaWidget.php:53
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#. Text in echo
+#: templates/chat-facebook.php:41
+msgid "style=\"display:none;\""
+msgstr ""

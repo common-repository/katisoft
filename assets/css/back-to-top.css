@@ -1,0 +1,28 @@
+/* Back to top */
+#back-to-top {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    visibility: hidden;
+    z-index: 1000;
+    opacity: 0.5;
+}
+#back-to-top:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#back-to-top:hover i{
+    color: #fff;
+}
+
+#back-to-top:active {
+    background-color: #555;
+}
+#back-to-top.show {
+    visibility: visible;
+}

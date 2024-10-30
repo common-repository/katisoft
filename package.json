@@ -1,0 +1,65 @@
+{
+  "name": "katisoft-plugin",
+  "version": "1.0.0",
+  "description": "Awesome starter plugin example",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "Thien Pham <chithien175@gmail.com> (https://webdepnhatrang.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chithien175/katisoft-plugin"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "PHP",
+    "composer",
+    "gulp",
+    "es6",
+    "scss"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@wordpress/scripts": "3.1.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.24.4",
+    "browserify": "^16.2.3",
+    "browserify-shim": "^3.8.14",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-options": "^1.1.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.9",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.js"
+  },
+  "browserify-shim": {
+    "jquery": "$"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "code-prettify": "^0.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: inc/Api/Widgets/MediaWidget.php:1
+msgid "Custom Text"
+msgstr ""
+
+#. Text in echo
+#: templates/chat-facebook.php:27
+msgid "Edit Customer Chat"
+msgstr ""
+
+#. Text in echo
+#: inc/Api/Widgets/MediaWidget.php:57
+msgid "Image:"
+msgstr ""
+
+#. Text in echo
+#: templates/chat-facebook.php:27
+msgid "Setup Customer Chat"
+msgstr ""
+
+#. Text in echo
+#: inc/Api/Widgets/MediaWidget.php:53
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: templates/chat-facebook.php:41
+msgid "style=\"display:none;\""
+msgstr ""
